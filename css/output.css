@@ -1,0 +1,115 @@
+/*dark green*/
+/*dark blue*/
+/*dark pink*/
+/*lavander*/
+/*lightpink*/
+/*lightgray*/
+/*white*/
+/*Global*/
+h1 {
+  color: #003333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder; }
+
+h2 {
+  color: #003333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+h3 {
+  color: #336699;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+h4 {
+  color: #336699;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+h5 {
+  color: #ccccff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+p {
+  color: #cc6699;
+  font-family: 'Perpetua', serif;
+  font-size: 17px; }
+
+a {
+  color: #ffcccc;
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: none;
+  line-height: 1.5px;
+  text-shadow: 1px 1px black; }
+
+span {
+  color: #ccccff;
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: underline;
+  line-height: 1.5px; }
+
+body {
+  padding: 0;
+  margin: 40px;
+  line-height: 1.5;
+  background-color: #ffffff; }
+
+header {
+  background-color: #ffffff; }
+
+nav .current a {
+  color: #cc6699;
+  font-weight: bold; }
+
+nav a:hover {
+  color: #ccccff; }
+
+.list {
+  color: #cc6699;
+  font-family: 'Perpetua', serif;
+  font-size: 17px; }
+
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  min-height: 70%;
+  border-top: #ffcccc 3px solid;
+  text-align: right; }
+
+form {
+  color: #336699;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  letter-spacing: 1px; }
+
+.button {
+  text-transform: uppercase;
+  color: #ffcccc;
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: none;
+  line-height: 1.5px;
+  text-shadow: 1px 1px black;
+  background-color: #336699;
+  padding: 15px 32px;
+  text-align: center;
+  border: none;
+  max-width: 100%;
+  box-shadow: 0 5px #666; }
+
+.button1 {
+  text-transform: uppercase;
+  color: #ffcccc;
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: none;
+  line-height: 1.5px;
+  text-shadow: 1px 1px black;
+  background-color: #336699;
+  text-align: center;
+  border: none;
+  max-width: 100px;
+  border-radius: 15px;
+  box-shadow: 0 5px #666; }
+
+/*# sourceMappingURL=output.css.map */

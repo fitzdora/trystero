@@ -1,0 +1,163 @@
+$colour1:#003333; /*dark green*/
+$colour2:#336699; /*dark blue*/
+$colour3:#cc6699; /*dark pink*/
+$colour4:#ccccff; /*lavander*/
+$colour5:#ffcccc; /*lightpink*/
+$colour6:#f4f4f4; /*lightgray*/
+$colour7:#ffffff; /*white*/
+
+
+/*Global*/
+
+h1 {
+
+	color:$colour1;
+	font-family:'Montserrat', sans-serif;
+	font-weight: bolder;
+
+}
+
+h2 {
+
+	color:$colour1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+
+	color:$colour2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+h4 {
+
+	color:$colour2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+h5 {
+
+	color:$colour4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	
+}
+
+
+
+p { 
+
+	color:$colour3;
+	font-family: 'Perpetua', serif;
+	font-size: 17px;
+
+}
+
+a {
+	color:$colour5;
+	font-family:'Abril Fatface', cursive;
+	text-decoration: none;
+	line-height: 1.5px;
+	text-shadow: 1px 1px black;
+}
+
+span {
+
+	color:$colour4;
+	font-family:'Abril Fatface', cursive;
+	text-decoration: underline;
+	line-height: 1.5px;
+
+}
+
+
+body {
+
+	padding: 0;
+	margin: 40px;
+	line-height: 1.5;
+	background-color: $colour7;
+}
+
+header {
+	background-color: $colour7;
+	
+}
+
+
+nav .current a {
+
+	color:$colour3;
+	font-weight:bold;
+}
+
+nav a:hover {
+
+	color:$colour4;
+}
+
+
+
+.list {
+
+	color:$colour3;
+	font-family: 'Perpetua', serif;
+	font-size: 17px;
+	
+}
+
+footer {
+	background-color: $colour7;
+	padding:20px;
+	margin-top: 20px;
+	min-height: 70%;
+	border-top: $colour5 3px solid;
+	text-align: right;
+}
+
+form {
+
+	color:$colour2;
+	font-family:'Abril Fatface', cursive;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+.button {
+
+	text-transform: uppercase;
+	color:$colour5;
+	font-family:'Abril Fatface', cursive;
+	text-decoration: none;
+	line-height: 1.5px;
+	text-shadow: 1px 1px black;
+	background-color: $colour2;
+	padding: 15px 32px;
+	text-align:center;
+	border:none;
+	max-width: 100%;
+	box-shadow: 0 5px #666;
+
+}
+
+.button1 {
+
+	text-transform: uppercase;
+	color:$colour5;
+	font-family:'Abril Fatface', cursive;
+	text-decoration: none;
+	line-height: 1.5px;
+	text-shadow: 1px 1px black;
+	background-color: $colour2;
+	text-align: center;
+	border:none;
+	max-width: 100px;
+	border-radius:15px;
+	box-shadow: 0 5px #666;
+
+}
+

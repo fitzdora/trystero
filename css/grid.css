@@ -1,0 +1,309 @@
+/*Grid Setup*/
+
+body {
+
+	margin:20px;
+
+}
+
+.wrapper {
+	
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.header {
+
+	grid-area: header;
+}
+
+.article {
+
+	grid-area: article;
+}
+
+.article1 {
+
+	grid-area: article1;
+}
+
+.article2 {
+
+	grid-area: article2;
+}
+
+.article3 {
+
+	grid-area: article3;
+}
+
+.article4 {
+
+	grid-area: article4;
+}
+
+.article5 {
+
+	grid-area: article5;
+}
+
+
+.section {
+
+	grid-area: section;
+}
+
+.section1 {
+
+	grid-area: section1;
+}
+
+
+.footer {
+
+	grid-area: footer;
+}
+
+.sidebar_menu {
+
+	grid-area: sidebar_menu;
+}
+
+nav {
+	grid-area: nav;
+}
+
+/*Home Grid*/
+
+.grid_home {
+
+
+	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-gap: 1em;
+	grid-template-areas:
+	"header"
+	"nav"
+	"article"
+	"section"
+	"article1"
+	"article2"
+	"article3" 
+	"section1"
+	"footer";
+}
+
+@media (min-width: 500px) {
+
+.grid_home {
+
+	
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav"
+	"article section"
+	"article1 article2"
+	"article3 section1"
+	"footer footer";
+
+}
+
+nav .nav{ text-align: right}
+
+}
+@media (min-width: 700px) {
+
+.grid_home {
+
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav nav nav"
+	"article article section section"
+	"article1 article1 article2 article2"
+	"article3 article3 section1 section1"
+	"footer footer footer footer";
+
+	
+}
+nav .nav{ text-align: right}
+}
+
+/*About Grid*/
+
+.grid_about {
+
+
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-gap: 1em;
+	grid-template-areas:
+	"header"
+	"nav"
+	"article1"
+	"article4"
+	"sidebar_menu"
+	"footer";
+}
+
+
+@media (min-width: 500px) {
+
+.grid_about {
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav"
+	"article1 article4"
+	"article1 sidebar_menu"
+	"footer footer";
+
+
+}
+nav .nav{ text-align: right}
+}
+
+@media (min-width: 700px) {
+
+.grid_about {
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav nav nav"
+	"article1 article1 article1 article1 "
+	"article4 article4 sidebar_menu sidebar_menu"
+	"footer footer footer footer";
+
+
+}
+nav .nav{ text-align: right}
+}
+
+
+/*Services*/
+
+.grid_services {
+
+	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-gap: 1em;
+	grid-template-areas:
+	"header"
+	"nav"
+	"article2"
+	"article1"
+	"footer";
+
+}
+
+
+@media (min-width: 500px) {
+
+.grid_services {
+
+	
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav"
+	"article2 article2" 
+	"article1 article1" 
+	"footer footer";
+
+
+
+}
+nav .nav{ text-align: right}
+}
+
+@media (min-width: 700px) {
+
+.grid_services {
+
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav nav nav"
+	"article2 article2 article1 article1"
+	"footer footer footer footer";
+	
+}
+nav .nav{ text-align: right}
+}
+
+
+/*Contact*/
+
+.grid_contact {
+
+	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-gap: 1em;
+	grid-template-areas:
+	"header"
+	"nav"
+	"article5"
+	"article3"
+	"sidebar_menu"
+	"footer";
+
+}
+
+
+@media (min-width: 500px) {
+
+.grid_contact {
+
+	
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav"
+	"article5 sidebar_menu" 
+	"article3 sidebar_menu" 
+	"footer footer";
+
+}
+nav .nav{ text-align: right}
+}
+
+@media (min-width: 700px) {
+
+.grid_contact {
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	"header nav nav nav"
+	"article5 article5 sidebar_menu sidebar_menu"
+	"article3 article3 sidebar_menu sidebar_menu"
+	"footer footer footer footer";
+
+
+}
+nav .nav{ text-align: right}
+}

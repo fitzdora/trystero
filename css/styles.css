@@ -1,0 +1,260 @@
+/*Google Fonts 
+Montserrat for Headers
+Perpetua for body
+Abril Fatface for special areas
+font-family: 'Montserrat', sans-serif;
+font-family: 'Abril Fatface', cursive;*/
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Paul Irish above*/
+
+/*Header*/
+
+
+img {
+
+	max-width: 100%;
+}
+
+header {
+
+	padding-top:30px;
+	width: 100%;
+	min-height: 70px;
+	margin: 10px;
+}
+
+nav .nav{
+
+	margin-top: 20px;
+	margin-right: 5px;
+	padding-top: 20px;
+	font-size: 1.5em;
+	text-align: center; /*change to right after 700px*/
+	border-bottom: #ffcccc 3px solid;
+
+
+}
+
+.nav {
+
+	text-transform: uppercase;
+
+}
+
+.nav li {
+
+	display: inline-flex;
+	flex-direction: row;
+	padding: 0 20px 0 20px;
+
+}
+
+nav .social{
+
+	margin-top: 20px;
+	margin-right: 5px;
+	padding-top: 20px;
+	font-size: 1.1em;
+	text-align: left;
+
+}
+
+.social li{
+
+	list-style: none;
+}
+
+
+
+
+/*form*/
+
+#quote h1{
+
+	text-align: left;
+	margin: 10px;
+}
+
+.wrapper form {
+
+
+	margin: 20px;
+	padding: 10px;
+	
+}
+
+.wrapper form label{
+
+ display: inline-block;
+  width: 140px;
+ 
+}
+
+
+/*Eco Vehicale*/
+#nissan h1 {
+
+	text-align: center;
+	margin: 10px;
+
+}
+
+#nissan img {
+
+	max-width: 100%;
+}
+
+/*about*/
+ #about p{
+
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+
+}
+
+#about h2{
+
+
+	text-align: left;
+	margin: 10px;
+}
+
+#about h3{
+
+
+	text-align: left;
+	margin: 10px;
+}
+
+#about .list {
+
+	margin: auto;
+
+
+}
+
+
+#about1 img {
+
+	float: left;
+	margin-right: 5px
+
+}
+
+#about1 h3{
+
+	clear:both;
+}
+
+
+
+
+/*Services*/
+ #services p{
+
+	margin: 10px;
+	padding: 10px;
+	text-align: right;
+
+}
+
+#services h2{
+
+	text-align: right;
+	margin: 10px;
+
+}
+
+
+
+/*Map*/
+
+ #map {
+   
+   margin: 20px;
+   width: 85%;
+   height: 250px;
+   background-color: grey;
+ }
+
+ #map img{
+ 	max-width: 100%;
+ }
+
+/*Eco & Community*/
+ #eco img{
+
+ 	max-width: 100%;
+ 	margin: 20px;
+ 	float: right;
+ }
+
+ #eco h3{
+
+ 	text-align: left;
+ 	margin-left: 10px;
+ 	
+ }
+
+ #eco p{
+
+ 	margin-left: 30px;
+ }
+
+
+#eco img {
+
+	
+	border-radius: 100px;
+	box-shadow: 0px 0px 40px 40px #f4f4f4;
+
+
+}
+
+/*buttons*/
+
+ #about .button1 {
+
+ 	margin-left: 10px;
+
+
+ }
+
+ #services .button1 {
+
+
+ 	margin-left: 10px;
+
+ }
+
+
+/*find*/
+
+ #find h3 {
+
+	margin-left: 10px;
+
+}
+
+
+#community img {
+
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 2px;
+}
+
+.sidebar_menu .social{
+
+	margin-left:10px;
+	margin-top:5px;
+}
